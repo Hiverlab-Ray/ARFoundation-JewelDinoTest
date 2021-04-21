@@ -98,7 +98,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Scale.unity
     guid: 13ac91f677dc22f4ca320ef8ae727b68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SimpleAR/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
@@ -113,6 +113,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Sample Scene.unity
     guid: c0afef1946db84844bfc733c6e5ca077
+  - enabled: 1
+    path: Assets/SimpleAR - Dino.unity
+    guid: f10efb22b5a636a47b809789ebbb5f3f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,
       type: 2}
