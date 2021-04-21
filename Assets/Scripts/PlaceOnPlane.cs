@@ -78,6 +78,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 {
                     spawnedObject.transform.position = hitPose.position;
                 }
+
+                spawnedObject.SetActive(true);
             }
         }
 
