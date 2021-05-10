@@ -3,37 +3,7 @@ guid: 385d01148c9992345a686e592b56be48
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Blue
-    second: {fileID: 2100000, guid: aabeeb65673ce384dba944d9c5245043, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Blue_Plastic_Phong_M
-    second: {fileID: 2100000, guid: 553e87a7ebffd9446ab75a4260851226, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Spinner_Phong_M
-    second: {fileID: 2100000, guid: eeda9edb072550d40a958a4dac669d0a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Valve_Phong_M
-    second: {fileID: 2100000, guid: 4295271eaeddd31429601e041991a42f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: White
-    second: {fileID: 2100000, guid: c79a5abc958cf8d4e87200ae2b67bc29, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 8fb9e57c35e61814f86c96a99058db2f, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0

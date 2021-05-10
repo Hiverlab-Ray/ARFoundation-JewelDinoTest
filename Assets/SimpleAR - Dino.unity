@@ -543,12 +543,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385547370}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1275363, y: 0, z: 0}
-  m_LocalScale: {x: 1.6749277, y: 1.6749277, z: 1.6749277}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.1275364, y: 0, z: 0}
+  m_LocalScale: {x: 1.6749278, y: 1.6749271, z: 1.6749271}
   m_Children: []
-  m_Father: {fileID: 1710405687}
-  m_RootOrder: 2
+  m_Father: {fileID: 1358696543}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391072989
 GameObject:
@@ -2025,6 +2025,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TogglePlaneDetectionText: {fileID: 1603248163}
+--- !u!4 &1358696543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8001481102371994715, guid: 5858ab7289b1fe5428e84afc3417ef35,
+    type: 3}
+  m_PrefabInstance: {fileID: 477810357}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1365831911
 GameObject:
   m_ObjectHideFlags: 0
