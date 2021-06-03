@@ -1,0 +1,995 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2640667496776953092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2640667496776953094}
+  - component: {fileID: 2640667496776953095}
+  m_Layer: 0
+  m_Name: Brachio Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2640667496776953094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640667496776953092}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 10.11}
+  m_LocalScale: {x: 6.9, y: 6.9, z: 6.9}
+  m_Children:
+  - {fileID: 2535298329482328523}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2640667496776953095
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640667496776953092}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09cfa69aedfe91345be37333e797ae63, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &2640667495225237024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2640667496776953094}
+    m_Modifications:
+    - target: {fileID: -8913649456966596547, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000012810564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8913649456966596547, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.00003243065
+      objectReference: {fileID: 0}
+    - target: {fileID: -8913649456966596547, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -89.99986
+      objectReference: {fileID: 0}
+    - target: {fileID: -8813271123380420349, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Clavicle
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8588190883548425585, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.256639
+      objectReference: {fileID: 0}
+    - target: {fileID: -8588190883548425585, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.511968
+      objectReference: {fileID: 0}
+    - target: {fileID: -8588190883548425585, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.492681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8069779636520664496, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8050423276074181853, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail
+      objectReference: {fileID: 0}
+    - target: {fileID: -7939787513959125848, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -27.63359
+      objectReference: {fileID: 0}
+    - target: {fileID: -7939787513959125848, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.25494
+      objectReference: {fileID: 0}
+    - target: {fileID: -7939787513959125848, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 80.766945
+      objectReference: {fileID: 0}
+    - target: {fileID: -7770245676664057833, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.39905947
+      objectReference: {fileID: 0}
+    - target: {fileID: -7770245676664057833, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.1321574
+      objectReference: {fileID: 0}
+    - target: {fileID: -7770245676664057833, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.041111
+      objectReference: {fileID: 0}
+    - target: {fileID: -7332776841272620507, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.17906834
+      objectReference: {fileID: 0}
+    - target: {fileID: -7332776841272620507, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.1736355
+      objectReference: {fileID: 0}
+    - target: {fileID: -7332776841272620507, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.04637
+      objectReference: {fileID: 0}
+    - target: {fileID: -7305102011607143378, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Clavicle
+      objectReference: {fileID: 0}
+    - target: {fileID: -7228466099004752497, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6401346590348810454, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6080982087750313164, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Foot
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057441334215147194, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 9.762828
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057441334215147194, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 76.75892
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057441334215147194, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -161.3276
+      objectReference: {fileID: 0}
+    - target: {fileID: -6044724700530632232, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Head
+      objectReference: {fileID: 0}
+    - target: {fileID: -5914966903493568043, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.2555623
+      objectReference: {fileID: 0}
+    - target: {fileID: -5914966903493568043, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.8405695
+      objectReference: {fileID: 0}
+    - target: {fileID: -5914966903493568043, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.6341326
+      objectReference: {fileID: 0}
+    - target: {fileID: -5819771013955354122, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Toe0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5590290121383043949, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.0000005047186
+      objectReference: {fileID: 0}
+    - target: {fileID: -5590290121383043949, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.0000294111
+      objectReference: {fileID: 0}
+    - target: {fileID: -5590290121383043949, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 11.595475
+      objectReference: {fileID: 0}
+    - target: {fileID: -5205555713048500981, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5151492872390713093, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:root
+      objectReference: {fileID: 0}
+    - target: {fileID: -5064766957506469123, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000029754581
+      objectReference: {fileID: 0}
+    - target: {fileID: -5064766957506469123, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.000005244644
+      objectReference: {fileID: 0}
+    - target: {fileID: -5064766957506469123, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 65.23496
+      objectReference: {fileID: 0}
+    - target: {fileID: -5008202244424887492, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: -4901949039683441285, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Xtra02
+      objectReference: {fileID: 0}
+    - target: {fileID: -4497889013242884427, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.00013652508
+      objectReference: {fileID: 0}
+    - target: {fileID: -4497889013242884427, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.00016208155
+      objectReference: {fileID: 0}
+    - target: {fileID: -4497889013242884427, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -83.55823
+      objectReference: {fileID: 0}
+    - target: {fileID: -4382016843248010024, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Spine1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4174051043950388987, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Thigh
+      objectReference: {fileID: 0}
+    - target: {fileID: -3986163623277506870, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.00006813988
+      objectReference: {fileID: 0}
+    - target: {fileID: -3986163623277506870, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.00012983887
+      objectReference: {fileID: 0}
+    - target: {fileID: -3986163623277506870, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 53.188824
+      objectReference: {fileID: 0}
+    - target: {fileID: -3839992428193049447, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3584958529103012391, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.000011533857
+      objectReference: {fileID: 0}
+    - target: {fileID: -3584958529103012391, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000057745715
+      objectReference: {fileID: 0}
+    - target: {fileID: -3584958529103012391, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.605847
+      objectReference: {fileID: 0}
+    - target: {fileID: -3410320919025599331, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R UpperArm
+      objectReference: {fileID: 0}
+    - target: {fileID: -3330557053361330436, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.8030314
+      objectReference: {fileID: 0}
+    - target: {fileID: -3330557053361330436, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 176.37914
+      objectReference: {fileID: 0}
+    - target: {fileID: -3330557053361330436, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -101.49953
+      objectReference: {fileID: 0}
+    - target: {fileID: -3283137295456791187, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Calf
+      objectReference: {fileID: 0}
+    - target: {fileID: -3166743056396876097, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.1947
+      objectReference: {fileID: 0}
+    - target: {fileID: -3166743056396876097, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -91.37242
+      objectReference: {fileID: 0}
+    - target: {fileID: -3166743056396876097, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -148.65181
+      objectReference: {fileID: 0}
+    - target: {fileID: -3156552163234944014, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2975712458893580517, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2971483699267515277, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2882348691290232349, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.057020932
+      objectReference: {fileID: 0}
+    - target: {fileID: -2882348691290232349, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.5571606
+      objectReference: {fileID: 0}
+    - target: {fileID: -2882348691290232349, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 13.830881
+      objectReference: {fileID: 0}
+    - target: {fileID: -2557057801582460127, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Toe0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2547949035238328225, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.44872
+      objectReference: {fileID: 0}
+    - target: {fileID: -2547949035238328225, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 109.154305
+      objectReference: {fileID: 0}
+    - target: {fileID: -2547949035238328225, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 109.15447
+      objectReference: {fileID: 0}
+    - target: {fileID: -2337118183186707515, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L UpperArm
+      objectReference: {fileID: 0}
+    - target: {fileID: -2306349858848382898, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.728945
+      objectReference: {fileID: 0}
+    - target: {fileID: -2306349858848382898, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 9.41401
+      objectReference: {fileID: 0}
+    - target: {fileID: -2306349858848382898, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.171369
+      objectReference: {fileID: 0}
+    - target: {fileID: -1031644690187936387, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.045575205
+      objectReference: {fileID: 0}
+    - target: {fileID: -1031644690187936387, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000013506711
+      objectReference: {fileID: 0}
+    - target: {fileID: -1031644690187936387, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 87.24862
+      objectReference: {fileID: 0}
+    - target: {fileID: -974687475108673397, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.000014763671
+      objectReference: {fileID: 0}
+    - target: {fileID: -974687475108673397, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.00007735345
+      objectReference: {fileID: 0}
+    - target: {fileID: -974687475108673397, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -28.444838
+      objectReference: {fileID: 0}
+    - target: {fileID: -877599968143853984, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail4
+      objectReference: {fileID: 0}
+    - target: {fileID: -534165459290857311, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.00001256465
+      objectReference: {fileID: 0}
+    - target: {fileID: -534165459290857311, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000028007184
+      objectReference: {fileID: 0}
+    - target: {fileID: -534165459290857311, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.8151813
+      objectReference: {fileID: 0}
+    - target: {fileID: -308984253410471361, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -85.678055
+      objectReference: {fileID: 0}
+    - target: {fileID: -308984253410471361, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -130.54117
+      objectReference: {fileID: 0}
+    - target: {fileID: -308984253410471361, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -8.887207
+      objectReference: {fileID: 0}
+    - target: {fileID: -293478783908662058, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000006699199
+      objectReference: {fileID: 0}
+    - target: {fileID: -293478783908662058, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000056838933
+      objectReference: {fileID: 0}
+    - target: {fileID: -293478783908662058, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -20.30613
+      objectReference: {fileID: 0}
+    - target: {fileID: -130204711591814488, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.3988154
+      objectReference: {fileID: 0}
+    - target: {fileID: -130204711591814488, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.33467
+      objectReference: {fileID: 0}
+    - target: {fileID: -130204711591814488, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -105.34245
+      objectReference: {fileID: 0}
+    - target: {fileID: -70523452942002313, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453134193671753, guid: f66e532fdd35cf64f9ec4e8876c3034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.00000031657754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453134193671753, guid: f66e532fdd35cf64f9ec4e8876c3034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.000014919337
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453134193671753, guid: f66e532fdd35cf64f9ec4e8876c3034f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 5.123832
+      objectReference: {fileID: 0}
+    - target: {fileID: 211359698206930660, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.5362466
+      objectReference: {fileID: 0}
+    - target: {fileID: 211359698206930660, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.013763547
+      objectReference: {fileID: 0}
+    - target: {fileID: 211359698206930660, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.0914124
+      objectReference: {fileID: 0}
+    - target: {fileID: 451914404500062669, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.7463236
+      objectReference: {fileID: 0}
+    - target: {fileID: 451914404500062669, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.17473269
+      objectReference: {fileID: 0}
+    - target: {fileID: 451914404500062669, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -168.73013
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Brachio_MP
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114467525080066057, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000007882717
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114467525080066057, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000013200363
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114467525080066057, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.4654369
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721504336027980630, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016919437991883071, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -18.884739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016919437991883071, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.247187
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016919437991883071, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -27.039736
+      objectReference: {fileID: 0}
+    - target: {fileID: 2019527964777558352, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Xtra0202
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183302317136674084, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -9.581595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183302317136674084, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 11.049515
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183302317136674084, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -37.558514
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404737519754019128, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.0000029622079
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404737519754019128, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.0000071044706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404737519754019128, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 65.19189
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596764118558460757, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Tail3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933530844265173392, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Pelvis
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972748764004555370, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.00002101472
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972748764004555370, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000023419484
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972748764004555370, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 39.64959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083435835257532522, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Forearm
+      objectReference: {fileID: 0}
+    - target: {fileID: 3301440415214716505, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Finger0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422769549450440670, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.192979
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422769549450440670, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.5412749
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422769549450440670, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -51.900867
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959727410396983789, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.35226166
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959727410396983789, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.19840387
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959727410396983789, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.201654
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181959250957573847, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000025276167
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181959250957573847, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000032596508
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181959250957573847, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 51.582443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259418117356361486, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Thigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436805663696350335, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436805663696350335, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000007337326
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708915577825066952, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997916654288205576, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.3314323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997916654288205576, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -2.4908938
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997916654288205576, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -79.114044
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258815090610774907, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527372386499653793, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.00000926332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527372386499653793, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000041442898
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527372386499653793, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.874184
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794165018112236135, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.8026819
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794165018112236135, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.2913537
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794165018112236135, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.9311044
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798741317958341050, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Spine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926660411013888188, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.5733976
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926660411013888188, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.47828245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926660411013888188, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.4875784
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423181194153899127, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 22.449936
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423181194153899127, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 75.221176
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423181194153899127, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 40.94731
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938177046295508075, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Finger0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168776301215910044, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291344252808905778, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417910398432921387, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Foot
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458098327947595738, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.000014431866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458098327947595738, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.0000051882716
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458098327947595738, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590528586149835820, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.045621473
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590528586149835820, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.0000030757326
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590528586149835820, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 87.24862
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766727953519996155, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 R Calf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151797031505546152, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Neck7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180907892843223109, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 Xtra01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8354681387122879869, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachio_MP:Bip001 L Forearm
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369130715873021003, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.0000008898303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369130715873021003, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.000020172289
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369130715873021003, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.495942
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f66e532fdd35cf64f9ec4e8876c3034f, type: 3}
+--- !u!4 &2535298329482328523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f66e532fdd35cf64f9ec4e8876c3034f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2640667495225237024}
+  m_PrefabAsset: {fileID: 0}
